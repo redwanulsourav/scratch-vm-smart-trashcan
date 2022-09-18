@@ -35,7 +35,7 @@ const defaultBlockPackages = {
     scratch3_event: require('../blocks/scratch3_event'),
     scratch3_looks: require('../blocks/scratch3_looks'),
     scratch3_motion: require('../blocks/scratch3_motion'),
-    scratch3_custom: require('../blocks/scratch3_custom'),
+    scratch3_trashcan: require('../blocks/scratch3_trashcan'),
     scratch3_operators: require('../blocks/scratch3_operators'),
     scratch3_sound: require('../blocks/scratch3_sound'),
     scratch3_sensing: require('../blocks/scratch3_sensing'),
