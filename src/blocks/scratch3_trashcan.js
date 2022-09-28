@@ -25,7 +25,7 @@ class Scratch3TrashcanBlocks {
     trashcan_move_forward(args, utils) {
         console.log('Trashcan move forward');
         axios
-            .get('http://0.0.0.0:8701/trashcan/move_forward')
+            .get('http://vrworkstation.atr.cs.kent.edu:8701/trashcan/move_forward')
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
             })
@@ -37,7 +37,7 @@ class Scratch3TrashcanBlocks {
     trashcan_move_backward(args, utils) {
         console.log('Trashcan move backward');
         axios
-            .get('http://0.0.0.0:8701/trashcan/move_backward')
+            .get('http://vrworkstation.atr.cs.kent.edu:8701/trashcan/move_backward')
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
             })
@@ -49,7 +49,7 @@ class Scratch3TrashcanBlocks {
     trashcan_rotate_cw(args, utils) {
         console.log('Trashcan rotate clockwise');
         axios
-            .get('http://0.0.0.0:8701/trashcan/rotate_cw')
+            .get('http://vrworkstation.atr.cs.kent.edu:8701/trashcan/rotate_cw')
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
             })
@@ -61,7 +61,7 @@ class Scratch3TrashcanBlocks {
     trashcan_rotate_ccw(args, utils) {
         console.log('Trashcan rotate counter clockwise');
         axios
-            .get('http://0.0.0.0:8701/trashcan/rotate_ccw')
+            .get('http://vrworkstation.atr.cs.kent.edu:8701/trashcan/rotate_ccw')
             .then(res => {
                 console.log(`statusCode: ${res.status}`);
             })
